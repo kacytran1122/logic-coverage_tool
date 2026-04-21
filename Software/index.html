@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Logic Coverage Tool</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Logic Coverage Tool</h1>
+
+<div class="container">
+  <input id="expr" placeholder="Enter expression e.g. (A && B) || C" />
+  <button onclick="run()">Run</button>
+
+  <h3>Results</h3>
+  <pre id="output"></pre>
+
+  <h3>Truth Table</h3>
+  <table id="table"></table>
+</div>
+
+<script src="logicCoverage.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
